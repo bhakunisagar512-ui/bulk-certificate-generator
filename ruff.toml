@@ -1,0 +1,8 @@
+line-length = 120
+target-version = "py312"
+extend-exclude = [".venv"]
+
+[lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["B008", "UP042"]  # B008: FastAPI Depends() defaults; UP042: keep (str, Enum) so str() stays the value
+per-file-ignores = { "tests/*" = ["E501"] }

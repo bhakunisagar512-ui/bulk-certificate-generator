@@ -1,0 +1,4 @@
+index,name,email,status,error_code,error_message,file
+0,Asha Verma,asha@example.com,SUCCEEDED,,,0000_Asha_Verma.pdf
+1,Ravi Kumar,ravi@example.com,SUCCEEDED,,,0001_Ravi_Kumar.pdf
+2,,not-an-email,FAILED,VALIDATION_ERROR,name: String should have at least 1 character; email: value is not a valid email address: An email address must have an @-sign.,

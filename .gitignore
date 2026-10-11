@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+storage/
+demo_output/
+*.db
+celerybeat-schedule*
